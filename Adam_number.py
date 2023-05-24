@@ -1,17 +1,17 @@
 n=int(input())
-d=n*n
+a=n*n
 s=0
 p=0
 while n!=0:
     r=n%10
     n//=10
     s=s*10+r
-e=s*s
-while e!=0:
-    f=e%10
-    e//=10
-    p=p*10+f
-if d==p:
+q=s*s
+while q!=0:
+    c=q%10
+    q//=10
+    p=p*10+c
+if a==p:
     print(True)
 else:
     print(False)
