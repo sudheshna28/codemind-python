@@ -1,9 +1,8 @@
-n=int(input())
-d=str(n)
-e=set(d)
-f=sorted(e)
-x=sorted(d)
-if f==x:
+n=input()
+a=list(n)
+b=set(a)
+c=list(b)
+if sorted(a)==sorted(c):
     print('Unique Number')
 else:
     print('Not Unique Number')
