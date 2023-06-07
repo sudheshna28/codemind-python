@@ -7,7 +7,7 @@ c=a+b
 d.append(a)
 d.append(b)
 d.append(c)
-for i in range(3,n+1):
+for i in range(1,n):
     a=b
     b=c
     c=a+b
@@ -17,4 +17,3 @@ if n in f:
     print(True)
 else:
     print(False)
-    
